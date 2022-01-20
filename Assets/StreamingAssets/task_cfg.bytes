@@ -1,0 +1,442 @@
+[
+  {
+    "task_chain_id": 1,
+    "task_sub_id": 1,
+    "icon": "house",
+    "desc": "租房子住",
+    "task_target": "rent_a_house",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": "2|1,3|1"
+  },
+  {
+    "task_chain_id": 1,
+    "task_sub_id": 2,
+    "icon": "jianli",
+    "desc": "投简历找工作",
+    "task_target": "find_job",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": "4|1,5|1"
+  },
+  {
+    "task_chain_id": 1,
+    "task_sub_id": 3,
+    "icon": "csdn",
+    "desc": "注册博客账号",
+    "task_target": "regist_blog",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": "6|1"
+  },
+  {
+    "task_chain_id": 1,
+    "task_sub_id": 4,
+    "icon": "guitar",
+    "desc": "自学吉他",
+    "task_target": "learn_guitar",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": "7|1"
+  },
+  {
+    "task_chain_id": 1,
+    "task_sub_id": 5,
+    "icon": "draw",
+    "desc": "自学画画",
+    "task_target": "learn_draw",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": "8|1"
+  },
+  {
+    "task_chain_id": 1,
+    "task_sub_id": 6,
+    "icon": "cat",
+    "desc": "领养猫",
+    "task_target": "adopt_cat",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": "9|1"
+  },
+  {
+    "task_chain_id": 1,
+    "task_sub_id": 7,
+    "icon": "end",
+    "desc": "大结局",
+    "task_target": "final",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": "10|1,11|1"
+  },
+  {
+    "task_chain_id": 2,
+    "task_sub_id": 1,
+    "icon": "house",
+    "desc": "交房租",
+    "task_target": "pay_the_rant",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 2,
+    "task_sub_id": 2,
+    "icon": "th",
+    "desc": "认识土豪房东的儿子",
+    "task_target": "know_local tyrants",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 2,
+    "task_sub_id": 3,
+    "icon": "business",
+    "desc": "合伙创业开公司",
+    "task_target": "open_company",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 3,
+    "task_sub_id": 1,
+    "icon": "cat",
+    "desc": "救助楼下的流浪猫",
+    "task_target": "rescue_stray_cat",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 3,
+    "task_sub_id": 2,
+    "icon": "hospital",
+    "desc": "送流浪猫去医院",
+    "task_target": "send_straycat_hospital",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 3,
+    "task_sub_id": 3,
+    "icon": "nurse",
+    "desc": "认识护士小姐姐",
+    "task_target": "know_nurse",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 4,
+    "task_sub_id": 1,
+    "icon": "cxy",
+    "desc": "入职游戏开发工作",
+    "task_target": "start_game_dev_job",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 4,
+    "task_sub_id": 2,
+    "icon": "cxy",
+    "desc": "加班3次",
+    "task_target": "work_overtime",
+    "target_amount": 3,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 4,
+    "task_sub_id": 3,
+    "icon": "cxy",
+    "desc": "加班10次",
+    "task_target": "work_overtime",
+    "target_amount": 10,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 4,
+    "task_sub_id": 4,
+    "icon": "cxy",
+    "desc": "加班50次",
+    "task_target": "work_overtime",
+    "target_amount": 50,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 4,
+    "task_sub_id": 5,
+    "icon": "cxy",
+    "desc": "加班100次",
+    "task_target": "work_overtime",
+    "target_amount": 100,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 4,
+    "task_sub_id": 6,
+    "icon": "operation",
+    "desc": "项目正式上线",
+    "task_target": "project_start_operating",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 4,
+    "task_sub_id": 7,
+    "icon": "ys",
+    "desc": "项目赚1000万",
+    "task_target": "project_earn_money",
+    "target_amount": 10000000,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 5,
+    "task_sub_id": 1,
+    "icon": "media",
+    "desc": "做自媒体",
+    "task_target": "start_selfmedia_job",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 5,
+    "task_sub_id": 2,
+    "icon": "fans",
+    "desc": "粉丝达到100个",
+    "task_target": "fans_cnt",
+    "target_amount": 100,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 5,
+    "task_sub_id": 3,
+    "icon": "fans",
+    "desc": "粉丝达到1万个",
+    "task_target": "fans_cnt",
+    "target_amount": 10000,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 5,
+    "task_sub_id": 4,
+    "icon": "fans",
+    "desc": "粉丝达到10万个",
+    "task_target": "fans_cnt",
+    "target_amount": 100000,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 5,
+    "task_sub_id": 5,
+    "icon": "fans",
+    "desc": "粉丝达到100万个",
+    "task_target": "fans_cnt",
+    "target_amount": 1000000,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 6,
+    "task_sub_id": 1,
+    "icon": "csdn",
+    "desc": "累计写博客5篇",
+    "task_target": "blog_cnt",
+    "target_amount": 5,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 6,
+    "task_sub_id": 2,
+    "icon": "csdn",
+    "desc": "累计写博客100篇",
+    "task_target": "blog_cnt",
+    "target_amount": 100,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 6,
+    "task_sub_id": 3,
+    "icon": "csdn",
+    "desc": "累计写博客500篇",
+    "task_target": "blog_cnt",
+    "target_amount": 500,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 6,
+    "task_sub_id": 4,
+    "icon": "csdn",
+    "desc": "累计写博客1000篇",
+    "task_target": "blog_cnt",
+    "target_amount": 1000,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 6,
+    "task_sub_id": 5,
+    "icon": "csdn",
+    "desc": "成为技术领域大神",
+    "task_target": "technical_field_god",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 7,
+    "task_sub_id": 1,
+    "icon": "guitar",
+    "desc": "吉他等级达到5级",
+    "task_target": "guitar_level",
+    "target_amount": 5,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 7,
+    "task_sub_id": 2,
+    "icon": "guitar",
+    "desc": "吉他等级达到10级",
+    "task_target": "guitar_level",
+    "target_amount": 10,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 7,
+    "task_sub_id": 3,
+    "icon": "guitar",
+    "desc": "吉他等级达到100级",
+    "task_target": "guitar_level",
+    "target_amount": 100,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 7,
+    "task_sub_id": 4,
+    "icon": "guitar",
+    "desc": "成为吉他大师",
+    "task_target": "guitar_god",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 8,
+    "task_sub_id": 1,
+    "icon": "draw",
+    "desc": "画画等级达到5级",
+    "task_target": "draw_level",
+    "target_amount": 5,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 8,
+    "task_sub_id": 2,
+    "icon": "draw",
+    "desc": "画画等级达到10级",
+    "task_target": "draw_level",
+    "target_amount": 10,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 8,
+    "task_sub_id": 3,
+    "icon": "draw",
+    "desc": "画画等级达到100级",
+    "task_target": "draw_level",
+    "target_amount": 100,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 8,
+    "task_sub_id": 4,
+    "icon": "draw",
+    "desc": "成为画画大师",
+    "task_target": "draw_god",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 9,
+    "task_sub_id": 1,
+    "icon": "cat",
+    "desc": "猫语等级达到5级",
+    "task_target": "cat_language_level",
+    "target_amount": 5,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 9,
+    "task_sub_id": 2,
+    "icon": "cat",
+    "desc": "猫语等级达到10级",
+    "task_target": "cat_language_level",
+    "target_amount": 10,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 9,
+    "task_sub_id": 3,
+    "icon": "cat",
+    "desc": "猫语等级达到100级",
+    "task_target": "cat_language_level",
+    "target_amount": 100,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 9,
+    "task_sub_id": 4,
+    "icon": "cat",
+    "desc": "成为猫语大师",
+    "task_target": "cat_language_god",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 10,
+    "task_sub_id": 1,
+    "icon": "alarm",
+    "desc": "梦醒来",
+    "task_target": "wake_up",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  },
+  {
+    "task_chain_id": 11,
+    "task_sub_id": 1,
+    "icon": "sleep",
+    "desc": "继续做梦",
+    "task_target": "continue_dream",
+    "target_amount": 1,
+    "award": "{\"gold\":1000}",
+    "open_chain": null
+  }
+]
