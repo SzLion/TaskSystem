@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TaskIconAtlas
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 84ee06e04ae1f6c41a4ea1d180303416, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: c3bac5202f82a534881b437ea5d5fba7, type: 3}
+  - {fileID: 21300000, guid: ab660c61de054e9439611e303ff3eaab, type: 3}
+  - {fileID: 21300000, guid: 9c5ccbc23a509ea49be959bca4510b51, type: 3}
+  - {fileID: 21300000, guid: 3770e503cb58f0c49b522eb1c14f6af3, type: 3}
+  - {fileID: 21300000, guid: 7397d333a244f174bb600d9fc0310ef4, type: 3}
+  - {fileID: 21300000, guid: 4a811463b9b3fd54cb2c54a7877dbd76, type: 3}
+  - {fileID: 21300000, guid: b78732a6dead1b34281915af21c21d7a, type: 3}
+  - {fileID: 21300000, guid: ba5368f616de5dc4998b58c3e9c1fd37, type: 3}
+  - {fileID: 21300000, guid: 9ea6b6b739ecee14dbf86ac3382de7ad, type: 3}
+  - {fileID: 21300000, guid: 41679df7338595d4cb78cd2dcc8f15ff, type: 3}
+  - {fileID: 21300000, guid: 31da7f18e87387c49a9173832c0213c2, type: 3}
+  - {fileID: 21300000, guid: 56fde1e85c426a34aba1c5a4db4da14f, type: 3}
+  - {fileID: 21300000, guid: b8b934a9b23b5e04380691be10f98b65, type: 3}
+  - {fileID: 21300000, guid: 309c800bdeb7d894aad6506c635ceca8, type: 3}
+  - {fileID: 21300000, guid: 475bca8b74e513a45a2ad428b597a8a0, type: 3}
+  - {fileID: 21300000, guid: 97947febf03749240bef1f5653ea18f8, type: 3}
+  - {fileID: 21300000, guid: ef4d6b7c68c48bf4cbb536e4b22a8f07, type: 3}
+  - {fileID: 21300000, guid: f5105abc845119641a5154c57734169a, type: 3}
+  - {fileID: 21300000, guid: 40f7076d39902ef41b661dde2e1060b7, type: 3}
+  - {fileID: 21300000, guid: 9cd1e46f7ab210a4c8d668ef1af47737, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - draw
+  - operation
+  - nurse
+  - guitar
+  - sleep
+  - cat
+  - alarm
+  - end
+  - zhi
+  - cxy
+  - csdn
+  - business
+  - fans
+  - media
+  - house
+  - jianli
+  - zhu
+  - hospital
+  - ys
+  - th
+  m_RenderDataMap: {}
+  m_Tag: TaskIconAtlas
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

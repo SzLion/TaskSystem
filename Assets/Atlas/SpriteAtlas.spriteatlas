@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpriteAtlas
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 33151f4d90549d3498bd1652e27cde56, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: fad638c029e7a43468b281edeb6e0ab5, type: 3}
+  - {fileID: 21300000, guid: af2b32d0607c66e408d1c465dc68fc1f, type: 3}
+  - {fileID: 21300000, guid: aee01d035546ae7409fea9e596bb69f7, type: 3}
+  - {fileID: 21300000, guid: 3b667e35c4f476d40b8bdb4a267f1c20, type: 3}
+  - {fileID: 21300000, guid: 9ab4736634789e942895279cf1223b18, type: 3}
+  - {fileID: 21300000, guid: a0766db8e49571943a11d0c45feac57b, type: 3}
+  - {fileID: 21300000, guid: 41cdb54b6ac867f48af2a448f8c91e07, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - close
+  - line
+  - head
+  - gold
+  - frame
+  - caidai
+  - btn
+  m_RenderDataMap: {}
+  m_Tag: SpriteAtlas
+  m_IsVariant: 0
+  m_IsPlaceholder: 0
