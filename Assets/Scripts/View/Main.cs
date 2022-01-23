@@ -1,24 +1,26 @@
+using System;
 using UnityEngine;
 
 namespace Task
 {
-
-
     public class Main : MonoBehaviour
     {
+        private void Awake()
+        {
+            TaskCfg.Instance.LoadCfg();
+        }
+
         // Start is called before the first frame update
         void Start()
         {
             GlobalObj.s_canvasTrans = GameObject.Find("Canvas").transform;
-            TaskCfg.Instance.LoadCfg();
+            
+
             TaskLogic.Instance.GetTaskData(() =>
             {
-                //TODO 显示任务界面
+                TaskPanel.Show();
             });
-
         }
-
-
     }
 
     public class GlobalObj
