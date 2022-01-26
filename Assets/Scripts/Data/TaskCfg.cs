@@ -7,13 +7,17 @@ using QFramework;
 
 namespace Task
 {
-    public class TaskCfg : Singleton<TaskCfg>
+    public class TaskCfg :  MonoSingleton<TaskCfg>
     {
         /// <summary>
         /// 用来存放配置数据的字典（链id：子任务id：taskcfgitem）
         /// </summary>
         private Dictionary<int, Dictionary<int, TaskCfgItem>> m_cfg;
 
+        public void StartLoad()
+        {
+            StartCoroutine(nameof(LoadCfg));
+        }
 
         /// <summary>
         /// 读取配置 此处改为UnityWebRequest异步加载
@@ -25,7 +29,7 @@ namespace Task
             UnityWebRequest webRequest = UnityWebRequest.Get(Application.streamingAssetsPath + "task_cfg");
             yield return webRequest.SendWebRequest();
 
-            if (webRequest.isNetworkError)
+            if (webRequest.result == UnityWebRequest.Result.ConnectionError)
             {
                 Debug.Log("Error While Sending: " + webRequest.error);
             }

@@ -7,7 +7,7 @@ namespace Task
     {
         private void Awake()
         {
-            TaskCfg.Instance.LoadCfg();
+            TaskCfg.Instance.StartLoad();
         }
 
         // Start is called before the first frame update
