@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using LitJson;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -26,7 +27,8 @@ namespace Task
         public IEnumerator LoadCfg()
         {
             m_cfg = new Dictionary<int, Dictionary<int, TaskCfgItem>>();
-            UnityWebRequest webRequest = UnityWebRequest.Get(Application.streamingAssetsPath + "task_cfg");
+            var uri = new System.Uri(Path.Combine(Application.streamingAssetsPath, "task_cfg.bytes"));
+            UnityWebRequest webRequest = UnityWebRequest.Get(uri.AbsolutePath);
             yield return webRequest.SendWebRequest();
 
             if (webRequest.result == UnityWebRequest.Result.ConnectionError)
@@ -36,12 +38,14 @@ namespace Task
             else
             {
                 var txt = webRequest.downloadHandler.text;
+               // Debug.Log(txt);
                 var jd = JsonMapper.ToObject<JsonData>(txt);
 
                 for (int i = 0, cnt = jd.Count; i < cnt; ++i)
                 {
                     var itemJd = jd[i] as JsonData;
                     TaskCfgItem cfgItem = JsonMapper.ToObject<TaskCfgItem>(itemJd.ToJson());
+                   // Debug.Log(cfgItem.task_chain_id);
 
                     if (!m_cfg.ContainsKey(cfgItem.task_chain_id))
                     {

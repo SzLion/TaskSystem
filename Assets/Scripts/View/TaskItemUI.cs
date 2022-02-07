@@ -36,13 +36,14 @@ namespace Task
             {
                 desText.text = cfg.desc;
                 
-                //TODO 设置图标
-                //icon.sprite
+                // 设置图标
+                icon.sprite = SpriteManager.Instance.GetSprite(cfg.icon);
                 
-                //TODO 设置主线/支线图标
-                //taskType.sprite
+                // 设置主线/支线图标
+                var taskTypeSpriteName = 1 == cfg.task_chain_id ? "zhu" : "zhi";
+                taskType.sprite = SpriteManager.Instance.GetSprite(taskTypeSpriteName);
 
-                progressText.text = cfg.task_target;
+                progressText.text = data.progress+"/"+cfg.target_amount;
 
                 progressSlider.value = (float)data.progress / cfg.target_amount;
                 
@@ -50,7 +51,10 @@ namespace Task
                 
                 goAheadBtn.onClick.AddListener(() =>
                 {
-                    //TODO 前往任务
+                    TipsPanel.Show(data.task_chain_id,data.task_sub_id,(() =>
+                    {
+                        UpdateUI(data);
+                    }));
                     
                 });
                 
@@ -62,7 +66,7 @@ namespace Task
                     {
                         if (0 == errorCode)
                         {
-                            //TODO 领奖界面
+                            AwardPanel.Show(award);
                             updateListCb();
                         }
                     });

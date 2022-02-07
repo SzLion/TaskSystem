@@ -263,8 +263,8 @@ GameObject:
   - component: {fileID: 4004691753697787711}
   - component: {fileID: 4004691753697787709}
   - component: {fileID: 4004691753697787708}
-  - component: {fileID: 38289365540221396}
   - component: {fileID: 554233811}
+  - component: {fileID: 1143214871037086840}
   m_Layer: 5
   m_Name: TipsPanel
   m_TagString: Untagged
@@ -330,21 +330,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &38289365540221396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4004691753697787710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ae0ef4067f000844a3aa8d63a75dcca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  closeBtn: {fileID: 4102220062207055117}
-  addProgressBtn: {fileID: 4004691754016039537}
-  onekeyBtn: {fileID: 4004691754277851207}
 --- !u!95 &554233811
 Animator:
   serializedVersion: 3
@@ -364,6 +349,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1143214871037086840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4004691753697787710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5659453e2a2467b9747efcaf260438e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  closeBtn: {fileID: 4102220062207055117}
+  addProgressBtn: {fileID: 4004691754016039537}
+  oneKeyBtn: {fileID: 4004691754277851207}
 --- !u!1 &4004691753733064998
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,10 +14,15 @@ namespace Task
             get { return m_taskData.taskDatas; }
         }
 
-        public TaskLogic()
+        private TaskLogic()
+        {
+        }
+
+        public override void OnSingletonInit()
         {
             m_taskData = new TaskData();
         }
+
 
         /// <summary>
         /// 获取任务数据
@@ -74,7 +79,7 @@ namespace Task
                 cb(-1, "{}");
             }
 
-            if (data.award_is_get == 0)
+            if (0 == data.award_is_get )
             {
                 data.award_is_get = 1;
                 m_taskData.AddOrUpdateData(data);

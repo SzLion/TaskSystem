@@ -275,8 +275,8 @@ GameObject:
   - component: {fileID: 2220161657852043988}
   - component: {fileID: 2220161657852043991}
   - component: {fileID: 4368358169323652896}
-  - component: {fileID: -5759838018894046147}
   - component: {fileID: 6641868590668880401}
+  - component: {fileID: 8794854383601007954}
   m_Layer: 5
   m_Name: AwardPanel
   m_TagString: Untagged
@@ -386,20 +386,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &-5759838018894046147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2220161657852043977}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f277d96bb16a7248a0a2c7b507d1bb2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  goldText: {fileID: 2220161657925284307}
-  bgBtn: {fileID: 4368358169323652896}
 --- !u!95 &6641868590668880401
 Animator:
   serializedVersion: 3
@@ -419,6 +405,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8794854383601007954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2220161657852043977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc001e1f738c461cb5b639bdf225e7a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldText: {fileID: 2220161657925284307}
+  bgBtn: {fileID: 4368358169323652896}
 --- !u!1 &2220161657925284311
 GameObject:
   m_ObjectHideFlags: 0

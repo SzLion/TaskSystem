@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.UIElements;
+using Button = UnityEngine.UI.Button;
 
 namespace Task
 {
@@ -8,11 +9,14 @@ namespace Task
     {
         public RecyclingListView scrollList;
 
+        public Button oneKeyGetAwardBth;
 
         private static GameObject s_taskPanelPrefab;
 
         public static void Show()
         {
+            
+            //TODO 资源加载方案替换
             if (null == s_taskPanelPrefab)
                 s_taskPanelPrefab = Resources.Load<GameObject>("TaskPanel");
             var panelObj = Instantiate(s_taskPanelPrefab);
@@ -23,6 +27,19 @@ namespace Task
         {
             scrollList.ItemCallback = PopulateItem;
             CreateList();
+            
+            oneKeyGetAwardBth.onClick.AddListener((() =>
+            {
+                TaskLogic.Instance.OneKeyGetAward(((errorcode, award) =>
+                {
+                    if (0 == errorcode)
+                    {
+                        AwardPanel.Show(award);
+                        RefreshAll();
+                    }
+                } ));
+            }));
+            
         }
 
         private void PopulateItem(RecyclingListViewItem item, int rowIndex)
@@ -50,6 +67,17 @@ namespace Task
         private void CreateList()
         {
             scrollList.RowCount = TaskLogic.Instance.taskData.Count;
+        }
+        
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.C))
+            {
+                TaskLogic.Instance.ResetAll(() => 
+                {
+                    RefreshAll();
+                });
+            }
         }
     }
 }
