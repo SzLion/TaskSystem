@@ -1,4 +1,5 @@
 using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace Task
@@ -64,6 +65,8 @@ namespace Task
                 {
                     TaskLogic.Instance.GetAward(data.task_chain_id,data.task_sub_id, (errorCode, award) =>
                     {
+                        
+                       // Debug.Log("errorCode： " + errorCode + ", award: " + award);
                         if (0 == errorCode)
                         {
                             AwardPanel.Show(award);

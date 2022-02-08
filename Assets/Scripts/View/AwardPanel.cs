@@ -18,10 +18,12 @@ namespace Task
 
         public static void Show(string award)
         {
-            if (null != s_awardPanelPrefab)
+            if (null == s_awardPanelPrefab)
                 s_awardPanelPrefab = Resources.Load<GameObject>("AwardPanel");
             var panelObj = Instantiate(s_awardPanelPrefab);
+           // Debug.Log(panelObj.name);
             panelObj.transform.SetParent(GlobalObj.s_canvasTrans,false);
+            
             var panelBhv = panelObj.GetComponent<AwardPanel>();
             panelBhv.Init(award);
         }

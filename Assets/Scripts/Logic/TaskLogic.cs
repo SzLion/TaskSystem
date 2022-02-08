@@ -85,7 +85,7 @@ namespace Task
                 m_taskData.AddOrUpdateData(data);
                 GoNext(chainId, subId);
                 var cfg = TaskCfg.Instance.GetCfgItem(data.task_chain_id, data.task_sub_id);
-                cb(1, cfg.award);
+                cb(0, cfg.award);
             }
             else
             {
